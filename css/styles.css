@@ -195,24 +195,35 @@ body {
   line-height: 1.62;
   letter-spacing: 0.03em;
 }
+
+.button.link {
+  background-color: var(--second-background-color);
+}
+
 .filter .link:hover,
 .filter .link:focus {
   background-color: var(--accent-color);
   color: var(--background-color);
 }
+
 .filter .link.current {
   background-color: var(--accent-color);
   color: var(--background-color);
 }
 
+.link-filter {
+  text-decoration: none;
+}
+
 .project .section-title {
+  color: var(--primary-text-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 
-.filter .text {
+.project .text {
   color: var(--title-text-cilor);
   font-weight: 400;
   font-size: 16px;
